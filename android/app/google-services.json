@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "740228806876",
+    "project_id": "todoska-2023",
+    "storage_bucket": "todoska-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740228806876:android:dcab5951faee3f97d1dc19",
+        "android_client_info": {
+          "package_name": "com.example.todoska"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740228806876-u2vm9kqqouu24vusm7mupaul64471fb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiSl_a6B20QpGhTwi9gaNFv87Z14UN_I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740228806876-b383aub98irv8mgd2a2im2glvuu5p2eo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "740228806876-v9apeqhfmf0vne4uep4rhl9f1m06806v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.todoska"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

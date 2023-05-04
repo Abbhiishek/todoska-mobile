@@ -1,0 +1,43 @@
+name: todoska
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  animated_text_kit: ^4.2.2
+  google_fonts: ^4.0.3
+  permission_handler: ^10.2.0
+  shared_preferences: ^2.1.0
+  flutter_native_splash: ^2.2.19
+  routemaster: ^1.0.1
+  firebase_core: ^2.10.0
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/todoska_logo_beta.png
+  color_dark: "#121212"
+  image_dark: assets/images/todoska_logo_beta.png
+  web: false
+  
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/todoska_logo_beta.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/todoska_logo_beta.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
